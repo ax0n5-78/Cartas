@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.mariokart{
+    border: 2px solid white;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    font-size: 30px;
+    color: greenyellow;
+    padding: 5px;
+}
+
+#kartao{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: greenyellow;
+}
+
+#kart1,
+#kart6{
+    width: 300px;
+    color: greenyellow;
+}
+
+#kart6{
+    text-align: right;
+}
+
